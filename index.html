@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="se">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+        <title>Netflix</title>
+</head>
+<body>
+    <header class="showcase">
+        <div class="showcase-top">
+            <img src="bilder/logo.png" alt="Netflix Logo">
+            <a href="#" class="btn btn-rounded">Logga in</a>
+        </div>
+        <div class="showcase-content">
+            <h1>Obegränsat med filmer, serier och annat.</h1>
+            <h3>Titta var du vill. Avsluta när du vill.</h3>
+            <p>Redo att börja titta? Ange din e-postadress för att skapa eller återaktivera ett konto.</p>
+            <input type="email" name="email" id="mail" placeholder="E-postadress">
+            <a href="#" class="btn btn-lg">Kom igång ></a>
+        </div>
+    </header>
+
+    
+        <div class="card-1">
+            <div class="desc-1">
+                <h1>Titta på din tv.</h1>
+                <h3>Titta på smart-tv-apparater, Playstation, Xbox, <br> Chromecast, Apple TV, Blu-ray-spelare och många fler</h3>
+            </div>
+            <img src="bilder/tvbild.png" alt="Netflix TV">
+            <video class="video-1" autoplay="" playsinline="" muted="" loop=""><source src="video/videotv.m4v" type="video/mp4"></video>
+        </div>
+        <div class="card-2">
+            <img src="bilder/bild3.jpg" alt="Netflix Mobile">
+            <div class="desc-2">
+                <h1>Ladda ner dina serier och titta offline.</h1>
+                <h3>Spara dina favoriter så har du alltid något att titta på.</h3>
+            </div>
+        </div>
+        <div class="card-3">
+            <div class="desc-3">
+                <h1>Titta var som helst.</h1>
+                <h3>Streama obegränsat med filmer och serier på mobil, surfplatta, dator och tv utan att betala extra.</h3>
+            </div>
+            <img src="bilder/bild5.png" alt="Device-Pile-In">
+            <video class="video-2" autoplay="" playsinline="" muted="" loop=""><source src="video/video-2.m4v" type="video/mp4"></video>
+        </div>
+    </section>
+
+    <section class="style-cards">
+        <div class="card-0">
+            <img src="bilder/barn.png" alt="Netflix Mobile">
+            <div class="desc-0">
+                <h1>Skapa profiler för barn.</h1>
+                <h3>Skicka ut barnen på äventyr med sina favoritkaraktärer i en profil som bara är till för dem och som ingår gratis i ditt abonnemang.</h3>
+            </div>
+        </div>
+        </section>
+
+    <section class="freq">
+        <h1>Vanliga frågor och svar</h1>
+        <div class="questions">
+            <button type="button">Vad är Netflix <span class="toggle1" onclick="toggle1()" id="rot1">+</span></button>
+            <div class="faq-answer closed" id="ans1">
+                <span>
+                    Netflix är en streamingtjänst som erbjuder ett stort utbud av prisbelönta serier, filmer, anime, dokumentärer och mycket mer på tusentals internetanslutna enheter.
+                     <br>
+                     <br>
+                    Du kan titta så mycket du vill, när du vill och utan ett enda reklamavbrott – allt för en låg månadskostnad. Det finns alltid något nytt att upptäcka, och nya serier och filmer läggs till varje vecka!
+                </span>
+            </div>
+            <button type="button">Hur mycket kostar Netflix <span onclick="toggle3()" id="rot3">+</span></button>
+            <div class="faq-answer closed" id="ans3">
+                <span>
+                    Titta på Netflix på din smartphone, surfplatta, smart-tv, bärbara dator eller streamingenhet – allt för en fast månadsavgift. Abonnemang från 99 kr till 179 kr per månad. Inga ytterligare kostnader, inga bindningstider.
+                </span>
+            </div>
+            <button type="button">Var kan jag titta? <span onclick="toggle4()" id="rot4">+</span></button>
+            <div class="faq-answer closed" id="ans4">
+                <span>
+                    Titta var du vill, när du vill. Logga in med ditt Netflix-konto för att titta direkt på webben på netflix.com från din dator eller någon annan enhet som har Netflix-appen, till exempel smart-tv-apparater, smartphones, surfplattor, streamingspelare och spelkonsoler.
+                    <br>
+                    <br>
+                    Du kan också ladda ner dina favoritserier med iOS-, Android- eller Windows 10-appen. Använd nerladdningar för att titta när du är på språng eller saknar internetanslutning. Ta med dig Netflix överallt.
+                </span>
+            </div>
+            <button type="button">Hur gör jag för att avsluta? <span onclick="toggle5()" id="rot5">+</span></button>
+            <div class="faq-answer closed" id="ans5">
+                <span>
+                    Netflix är flexibelt. Det finns inga krångliga kontrakt och inga förpliktelser. Du kan enkelt avsluta ditt konto online med två klick. Det finns inga uppsägningsavgifter – starta eller avsluta ditt konto när som helst.
+                </span>
+            </div>
+            <button type="button">Vad kan jag se på Netflix? <span onclick="toggle6()" id="rot6">+</span></button>
+            <div class="faq-answer closed" id="ans6">
+                <span>
+                    Netflix har ett stort bibliotek med filmer, dokumentärer, serier, anime, prisbelönt originalinnehåll från Netflix och mycket annat. Titta så mycket du vill, när du vill.
+                </span>
+            </div>
+                <button type="button">Passar Netflix för barn? <span onclick="toggle7()" id="rot7">+</span></button>
+                <div class="faq-answer closed" id="ans7">
+                    <span>
+                        Netflix för barn ingår i ditt abonnemang så att du som förälder har kontroll över innehållet samtidigt som barnen kan upptäcka familjevänliga serier och filmer i sin egen profil.
+                        <br>
+                        <br>
+                        Barnprofiler har PIN-kodsskyddade föräldrakontroller där du kan sätta en åldersgräns för det innehåll barnen får titta på. Du kan även blockera specifika titlar som du inte vill att barnen ska se.
+                    </span>
+                </div>
+          </div>
+    </section>
+
+    <section class="lastsec">
+        <div class="faq">
+    <p>Redo att börja titta? Ange din e-postadress för att skapa eller återaktivera ett konto.</p>
+    <div class="input">
+        <input type="email" name="email" placeholder="E-postadress">
+        <a href="#" class="btn-rounded"><button>Kom igång ></button></a>
+    </div>
+    </section>
+
+    <footer class="footer">
+        <p>Frågor? Ring 020-79 06 37</p>
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">Vanliga frågor</a></li>
+                <li><a href="#">Investerarrelationer</a></li>
+                <li><a href="#">Sätt att titta</a></li>
+                <li><a href="#">Företagsinformation</a></li>
+                <li><a href="#">Bara på Netflix</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Hjälpcenter</a></li>
+                <li><a href="#">Jobba hos oss</a></li>
+                <li><a href="#">Användarvillkor</a></li>
+                <li><a href="#">Kontakta oss</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Ditt konto</a></li>
+                <li><a href="#">Lös in presentkort</a></li>
+                <li><a href="#">Sekretess</a></li>
+                <li><a href="#">Hastighetstest</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Mediecenter</a></li>
+                <li><a href="#">Köp presentkort</a></li>
+                <li><a href="#">Cookie-inställningar</a></li>
+                <li><a href="#">Juridisk information</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
