@@ -149,13 +149,14 @@ img{
 
 .showcase-content .btn-lg{
     position: absolute;
-    left: 46%;
-    bottom: -7.9vh;
-    padding: 0rem 1rem;
-    font-size: 1.5rem;
+    left: 51%;
+    bottom: -8vh;
+    font-size: 1rem;
+    padding-left: 2rem;
     text-transform: uppercase;
-    height: 50px;
     width: 10rem;
+    height: 2.2rem;
+    text-align: center;
 
 }
 
@@ -250,7 +251,7 @@ img{
 }
 
 .card-3 img{
-    width: 110%;
+    width: 100%;
     grid-column: 2/2;
     grid-row: 1/2;
 }
@@ -291,6 +292,7 @@ img{
     font-size: 40px;
     cursor: pointer;
 }
+
 .freq .questions .faq-answer{
     width: 100%;
     height: auto;
@@ -303,10 +305,8 @@ img{
     background: #303030;
     text-align: left;
 }
-.freq .questions .faq-answer span{
-    transform: scaleY(1.2);
-    letter-spacing: 0.06em;
-}
+
+
 .closed{
     display: none;
 }
